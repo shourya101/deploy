@@ -40,14 +40,3 @@ spec:
       - name: mongo-volume
         persistentVolumeClaim:
           claimName: mongo-pvc
-
-      #emptyDir Volume Type ->
-      # volumes:
-      # - name: mongo-volume
-      #   emptyDir: {}
-
-      #hostPath Volume Type ->
-      #   volumes:
-      # - name: mongo-volume
-      #   hostPath:
-      #     path: /data
